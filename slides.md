@@ -73,3 +73,19 @@ Washington University School of Medicine
   WO2022198218A1 - Spectral Correlation Analysis of Layered Evolutionary Signals
 </p>
 
+---
+
+# Background
+
+
+---
+
+# Institutional level view
+
+---
+
+# Identifying high value targets for collector retraining
+
+---
+
+# Delivering automated feedback and training to reduce specimen collection errors
