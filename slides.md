@@ -213,14 +213,26 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 ---
 
 <h1>
-  Hemolysis is Common the Emergency Department
+  Hemolysis is a Common Preanalytical Error
 </h1>
+<div class='columns'>
+  <div class='columns-left'>
+  </div>
+  <div class='columns-right'>
+  </div>  
+</div>
 
 ---
 
 <h1>
-  Training and Feedback can Reduce Hemolysis Rates
+  Training and Feedback Reduce Hemolysis Rates
 </h1>
+<div class='columns'>
+  <div class='columns-left'>
+  </div>
+  <div class='columns-right'>
+  </div>  
+</div>
 
 ---
 
@@ -287,23 +299,92 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-<h2>
-  Blood Culture Comtamination is Common in the ED Setting
-</h2>
-
----
-
-
-<h2>
-  Effective Strategies for Reducing Blood Culture Contamination
-</h2>
-
----
-
-<h1> 
-  Outline
+<h1>
+  Blood Culture Contamination is Common
 </h1>
+<div class='columns'>
+  <div class='columns-left'>
+  </div>
+  <div class='columns-right'>
+  </div>  
+</div>
 
+---
+
+<h1>
+  Training and Feedback Reduce Contamination Rates
+</h1>
+<div class='columns'>
+  <div class='columns-left'>
+  </div>
+  <div class='columns-right'>
+  </div>  
+</div>
+
+---
+
+<h2>
+ Barriers to Implementing Collector Feedback and Training 
+</h2>
+<br>
+<div>
+  <img src='./assets/barriers.png' width=2000>
+</div>
+
+---
+
+<h2>
+  Our Hypothesis
+</h2>
+<p>
+  We hypothesized that digital technologies        can remove the barriers to mounting an effective education and feedback campaign to reduce specimen collection error rates
+</p>
+<center>
+<div style='padding-top:10px'>
+  <img src='./assets/informaticsandtechonlogy.png' height=450>
+</div>
+</center>
+
+
+---
+
+<h1>
+  Our goal
+</h1>
+<p>
+  To develop an end-to-end automated solution to provide scalable and sustainable collector feedback and performance-based training to reduce specimen collection errors 
+</p>
+<div style='margin:10px'>
+  <img src='./assets/aces_architecture.png' style='padding-left:400;padding-top:10;' width=650>
+</div>
+
+---
+
+<div style='border-bottom:solid;border-width:thick;border-color:gray'>
+  <h1>
+    Outline for this Talk 
+  </h1>
+</div>
+<br>
+<div style='padding-left:40px'>
+  <h3>
+    Part 1
+  </h3>
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px'>
+    <p style='padding-left:20px;'>
+      Automating the dectection of underperforming specimen collectors
+    </p>
+  </div>
+  <h3 style='padding-top:20px'>
+    Part 2
+  </h3>
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px'>  
+    <p style='padding-left:20px'>
+      Automating the delivery of personalized collector feedback and training
+    </p>
+  </div>
+</div>
+<br>
 
 ---
 
