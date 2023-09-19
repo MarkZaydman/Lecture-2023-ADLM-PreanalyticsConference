@@ -361,34 +361,103 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 ---
 
 <div style='border-bottom:solid;border-width:thick;border-color:gray'>
-  <h1>
+  <h2>
     Outline for this Talk 
-  </h1>
+  </h2>
 </div>
-<br>
-<div style='padding-left:40px'>
+<div style='padding-left:40px;padding-top:0px'>
   <h3>
     Part 1
   </h3>
-  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px'>
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
+    <p style='padding-left:20px;'>
+      Estimating the institution-level costs of <br>blood specimen hemolysis and blood culture contamination
+    </p>
+  </div>
+  <h3>
+    Part 2
+  </h3>
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
     <p style='padding-left:20px;'>
       Automating the dectection of underperforming specimen collectors
     </p>
-  </div>
-  <h3 style='padding-top:20px'>
-    Part 2
+  </div>  
+  <h3>
+    Part 3
   </h3>
-  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px'>  
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px;margin-bottom:10px'>  
     <p style='padding-left:20px'>
       Automating the delivery of personalized collector feedback and training
     </p>
   </div>
 </div>
 <br>
+<br>
+
+
+---
+<h1>
+  Part 1
+</h3>
+<div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
+  <p style='padding-left:20px;'>
+  Estimating the institution-level costs of <br>blood specimen hemolysis and blood culture contamination
+    </p>
+</div>
+
 
 ---
 
-# Institutional level view
+
+<div class="columns">
+  <div class="columns-left">
+    <h1>
+      Study Context
+    </h1>
+    <h5>
+      Barnes-Jewish Hospital (BJH)
+    </h5>
+    <p>
+      &bull; St. Louis, Missouri, USA<br>
+      &bull; 1266 adult beds<br>
+      &bull; Tertiary academic care center<br>
+      &emsp;- Washington University<br>&emsp;&nbsp;&nbsp;&nbsp;School of Medicine<br>
+    </p>
+</div>
+  <div class="columns-right">
+    <img align="left" src="./assets/bjc.jpeg" hspace=40 vspace=5 width="450" alt="pic"/> 
+    <img align="left" src="./assets/bjh_logo.png" hspace=40 vspace=0 width="450" alt="pic"/> 
+  </div>
+</div>
+
+---
+
+<h1>
+  Methods
+</h1>
+<div class="columns">
+  <div class="columns-left">
+    <strong>Retrospective:</strong> 6/1/2021 and 1/1/2023<br>
+    <strong>Single-institution:</strong> Barnes-Jewish Hospital<br>
+    <strong>Study design:</strong> Observational<br>
+    <strong>Data source:</strong> LIS (Cerner Millenium, Oracle)
+    <strong>Inclusion criteria:</strong> <br>
+    &emsp;&bull; Specimen drawn in study period<br>
+    &emsp;&bull; Hemolysis index (HI) measured<br>
+    <strong>Cost model:</strong> <br>
+    &emsp;&bull; Redrawn if HI > threshold for 1+ analyte<br>
+    &emsp;&bull; Fixed, context dependent redraw costs<br>
+</div>
+  <div class="columns-right">
+    image goes here
+  </div>
+</div>
+
+---
+
+<h1>
+  
+</h1>
 
 ---
 
