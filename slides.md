@@ -432,12 +432,15 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-<h1>
-  Methods
-</h1>
+<h2>
+  Methods (estimating hemolysis costs)
+</h2>
 <div class="columns">
   <div class="columns-left">
-    <strong>Retrospective:</strong> 6/1/2021 and 1/1/2023<br>
+    <!-- <h3>
+      <ins>Hemolysis costs</ins>
+    </h3> -->
+    <strong>Retrospective:</strong> 1/1/2022 to 1/1/2023<br>
     <strong>Single-institution:</strong> Barnes-Jewish Hospital<br>
     <strong>Study design:</strong> Observational<br>
     <strong>Data source:</strong> LIS (Cerner Millenium, Oracle)
@@ -447,16 +450,169 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
     <strong>Cost model:</strong> <br>
     &emsp;&bull; Redrawn if HI > threshold for 1+ analyte<br>
     &emsp;&bull; Fixed, context dependent redraw costs<br>
-</div>
-  <div class="columns-right">
-    image goes here
+  </div>
+  <div class="columns-left" style='margin-left:20px'>
+    <table style='padding-top:0px;padding-bottom:10px;text-align:center'>    
+      <tr>
+        <th>Setting</th>
+        <th>Costs</th>
+        <th>Reference</th>
+      </tr>
+      <tr>
+        <td>Emergency</td>
+        <td>$600.00</td>
+        <td style='font-size:16px'>Phelan, Michael P., et. al., JALM 6(6):2021, <br>Pgs 1607–1610</td>
+      </tr>                              
+      <tr>
+        <td>Inpatient</td>
+        <td>$357.15</td>
+        <td style='font-size:16px'>Green, Sol F. Clin Biochem 46(13-14):2013,<br>Pgs 1175–79</td>
+      </tr>
+      <tr>
+        <td>Critical care</td>
+        <td>$162.18</td>
+        <td style='font-size:16px'>Green, Sol F. Clin Biochem 46(13-14):2013,<br>Pgs 1175–79</td>
+      </tr>
+      <tr>
+        <td>Outpatient</td>
+        <td>$337.05</td>
+        <td style='font-size:16px'>Green, Sol F. Clin Biochem 46(13-14):2013,<br>Pgs 1175–79</td>
+      </tr>
+    </table>
   </div>
 </div>
 
 ---
 
+
+<div class="columns">
+  <div class="columns-left">
+    <h1>
+      Hemolysis Indices
+    </h1>
+    Automated detection and quantitation<br>
+    Based on spectrophotemetric measurement<br><br>
+    <ins>BJH</ins><br>
+    Measured on Roche Cobas c702<br>
+    Plasma samples<br>
+  </div>
+  <div class="columns-right">
+    <center>
+      <img src='./assets/hgb_wavelength.png' style='margin-left:40px'>
+      <img src='./assets/hgb_hi_calibration.png'>
+    </center>
+  </div>
+</div>
+<p style='font-size:18px;text-align:right'>
+  Ishiguro, Akiyo, Mitsuaki Nishioka, Akihiro Morishige, Reo Kawano, Toshihiko Kobayashi, Aki Fujinaga, Fumiya Takagi, et al. “What Is the Best Wavelength for the Measurement of Hemolysis Index?” Clinica Chimica Acta 510 (November 2020): 15–20. https://doi.org/10.1016/j.cca.2020.06.046.
+</p>
+
+
+
+---
+
 <h1>
-  
+  Results
+</h1>
+<div class="columns">
+  <div class="columns-left">
+    Estimating the annual burden of hemolysis at a single adult academic hospital
+  </div>
+  <div class="columns-right">
+    <table style='margin-top:0px;margin-left:50px;text-align:right'>
+      <tr>
+        <td>
+          # specimens
+        </td>
+        <td>
+          620,756
+        </td>        
+      </tr>
+      <tr>
+        <td>
+          # collectors
+        </td>
+        <td>
+          4994
+        </td>        
+      </tr>
+      <tr>
+        <td>
+          HI > 50
+        </td>
+        <td>
+          12.1%
+        </td>        
+      </tr>    
+      <tr>
+        <td>
+          HI > 100
+        </td>
+        <td>
+          5.0%
+        </td>        
+      </tr>
+      <tr>
+        <td>
+          HI > 250
+        </td>
+        <td>
+          1.4%
+        </td>        
+      </tr>   
+      <tr>
+        <td>
+          Rejection rate
+        </td>
+        <td>
+          1.6%
+        </td>        
+      </tr>   
+      <tr>
+        <td>
+          Total costs
+        </td>
+        <td>
+          $3,910,530.54
+        </td>        
+      </tr>                          
+    </table>
+  </div>
+</div>
+
+
+---
+
+<h2>
+  Methods (estimating blood culture contamination costs)
+</h2>
+<div class="columns">
+  <div class="columns-left">
+    <h3>
+      <ins>Blood culture contamination costs</ins>
+    </h3>
+    <strong>Retrospective:</strong> xx/xx/xxxx to yy/yy/yyyy<br>
+    <strong>Single-institution:</strong> Barnes-Jewish Hospital<br>
+    <strong>Study design:</strong> Observational<br>
+    <strong>Data source:</strong> LIS (Cerner Millenium, Oracle)
+    <strong>Inclusion criteria:</strong> <br>
+    &emsp;&bull; Specimen drawn in study period<br>
+    <strong>Contamination logic:<br></strong>
+    &emsp;&bull; Grew likely commensual<br>
+    &emsp;&bull; No repeat positive +/- 3 days<br>
+    <strong>Cost model:</strong> <br>
+    &emsp;&bull; Context dependent costs<br>
+  </div>
+  <div class="columns-left" style='margin:20px'>
+    BCC costs cartoon goes here
+  </div>
+</div>
+
+
+---
+
+<h1>
+
 </h1>
 
 ---
