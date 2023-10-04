@@ -511,12 +511,16 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-<h1>
-  Results
-</h1>
-<div class="columns">
+<h3>
+  Annual Institutional Hemolysis Redraw Costs are Nearly $4,000,000
+</h3>
+<div class="columns" style='margin-top:20px'>
   <div class="columns-left">
-    Estimating the annual burden of hemolysis at a single adult academic hospital
+    <ins>
+      Assumptions<br>
+    </ins>
+    &bull; Results supressed for HI > threshold<br>
+    &bull; All specimen with supressed results <br>&emsp;incur redraw costs
   </div>
   <div class="columns-right">
     <table style='margin-top:0px;margin-left:50px;text-align:right'>
@@ -583,6 +587,90 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
+
+<!-- <div class="columns"> -->
+  <!-- <div class="columns-left"> -->
+<h3>
+  Emergency and Inpatient Settings Account Majority of Redraw Costs
+</h3>
+<div class='columns'>
+  <div class='columns-left' style='margin-top:50px'>
+    <!-- &bull; Each account for ~40% of total costs<br> -->
+    &bull; Inpatient costs are driven by volume<br>
+    &bull; ED costs driven by error rates and <br>&emsp; higher redraw costs <br>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/encounter_type_summary.png' width=550>
+  </div>
+</div>
+
+---
+
+<h2>
+  Most Hemolysis Costs Arise from a Small Number of Collectors
+</h2>
+<div class="columns" style='margin-top:20px'>
+  <div class="columns-left">
+    <center>
+    <ins>
+      Pareto Principle<br>
+    </ins>
+    <div style='text-align:center;border:solid;border-radius:10px;margin:20px;padding:10px'>
+      ~20% of the collectors <br>are responsible for <br>~80% of the total hemolysis costs
+    </div>
+    </center>
+  </div>
+  <div class="columns-right">
+    <center>
+      <img src='./assets/pareto_all.png' width=400>
+    </center>
+  </div>
+</div>
+
+---
+
+<h2>
+  Pareto Principle Appears Across Patient Encounter Types
+</h2>
+<div class="columns" style='margin-top:20px'>
+  <div class="columns-left">
+    Hemolysis costs across different patient care setting arise from a subset of collectors
+  </div>
+  <div class="columns-right">
+    <center>
+      <img src='./assets/pareto_byType.png' width=500>
+    </center>
+  </div>
+</div>
+
+---
+
+<div style='border:solid;text-align:center;border-radius:10px;padding:10px'>
+  How to identify the subset of collectors that are responsible for the majority of costs?
+</div>
+
+---
+
+  <h3>
+    Part 2
+  </h3>
+  <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
+    <p style='padding-left:20px;'>
+      Automating the dectection of underperforming specimen collectors
+    </p>
+  </div>  
+  
+---
+
+# Identifying high value targets for collector retraining
+
+---
+
+# Delivering automated feedback and training to reduce specimen collection errors
+
+
+---
+
 <h2>
   Methods (estimating blood culture contamination costs)
 </h2>
@@ -608,17 +696,3 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
 </div>
 
-
----
-
-<h1>
-
-</h1>
-
----
-
-# Identifying high value targets for collector retraining
-
----
-
-# Delivering automated feedback and training to reduce specimen collection errors
