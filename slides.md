@@ -75,21 +75,27 @@ Washington University School of Medicine
 
 ---
 
-<h1>Errors Occuring During Specimen Collection</h1>
+<h1>
+  Hemolysis and Blood Culture Contamination
+</h1>
 
-<br>
+> Common errors occuring during specimen collection
 
-<img src='./assets/Preanalytical_Errors.png' style='margin-left:30px'>
+<div style='margin-top:40px'>
+  <img src='./assets/Preanalytical_Errors.png' style='margin-left:30px'>
+</div>
 
 ---
 
 
-<h1><i>In vitro</i> Hemolysis Occurs During or After Collection</h1>
-<br>
+<!-- <h1><i>In vitro</i> Hemolysis Occurs During or After Collection</h1> -->
+<!-- <br> -->
 <div class='columns'>
   <div class='columns-left'>
     <p style='padding-left:10px'>
-      <ins><i>In vitro</i> hemolysis</ins> <br><br>
+      <h3>
+        <ins><i>In vitro</i> hemolysis</ins> <br><br>
+      </h3>
       Non-biological rupturing of blood cells leading to the release of intracellular contents into the fluid fraction of the specimen (ex. Potassium, Hemoglobin)
     </p>
   </div>
@@ -209,33 +215,20 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   Doern, Gary V., Karen C. Carroll, Daniel J. Diekema, Kevin W. Garey, Mark E. Rupp, Melvin P. Weinstein, and Daniel J. Sexton. “Practical Guidance for Clinical Microbiology Laboratories: A Comprehensive Update on the Problem of Blood Culture Contamination and a Discussion of Methods for Addressing the Problem.” Clinical Microbiology Reviews 33, no. 1 (December 18, 2019): e00009-19. https://doi.org/10.1128/CMR.00009-19.
 </p>
 
-
+<!-- 
 ---
 
 <h1>
-  Hemolysis is a Common Preanalytical Error
+  Hemolysis is the Most Common Preanalytical Error
 </h1>
 <div class='columns'>
   <div class='columns-left'>
   </div>
   <div class='columns-right'>
   </div>  
-</div>
+</div> -->
 
 ---
-
-<h1>
-  Training and Feedback Reduce Hemolysis Rates
-</h1>
-<div class='columns'>
-  <div class='columns-left'>
-  </div>
-  <div class='columns-right'>
-  </div>  
-</div>
-
----
-
 
 <h1>Blood Culture Contamination</h1>
 <br>
@@ -257,9 +250,8 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   Doern, Gary V., Karen C. Carroll, Daniel J. Diekema, Kevin W. Garey, Mark E. Rupp, Melvin P. Weinstein, and Daniel J. Sexton. “Practical Guidance for Clinical Microbiology Laboratories: A Comprehensive Update on the Problem of Blood Culture Contamination and a Discussion of Methods for Addressing the Problem.” Clinical Microbiology Reviews 33, no. 1 (December 18, 2019): e00009-19. https://doi.org/10.1128/CMR.00009-19.
 </p>
 
+
 ---
-
-
 
 <h1>Blood Culture Contamination Causes Broad Harms</h1>
 
@@ -297,7 +289,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
 </div>
 
----
+<!-- ---
 
 <h1>
   Blood Culture Contamination is Common
@@ -307,8 +299,23 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
   <div class='columns-right'>
   </div>  
+</div> -->
+
+---
+
+
+
+<h1>
+  Training and Feedback Synergistically Reduce Specimen Collection Error Rates
+</h1>
+<div class='columns'>
+  <div class='columns-left'>
+  </div>
+  <div class='columns-right'>
+  </div>  
 </div>
 
+<!-- 
 ---
 
 <h1>
@@ -319,7 +326,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
   <div class='columns-right'>
   </div>  
-</div>
+</div> -->
 
 ---
 
@@ -371,7 +378,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </h3>
   <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
     <p style='padding-left:20px;'>
-      Estimating the institution-level costs of <br>blood specimen hemolysis and blood culture contamination
+      Estimating the costs and drivers of specimen hemolysis
     </p>
   </div>
   <h3>
@@ -401,8 +408,8 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 </h3>
 <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
   <p style='padding-left:20px;'>
-  Estimating the institution-level costs of <br>blood specimen hemolysis and blood culture contamination
-    </p>
+    Estimating the costs and drivers of specimen hemolysis
+  </p>
 </div>
 
 
@@ -433,7 +440,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 ---
 
 <h2>
-  Methods (estimating hemolysis costs)
+  Study Design
 </h2>
 <div class="columns">
   <div class="columns-left">
@@ -452,7 +459,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
     &emsp;&bull; Fixed, context dependent redraw costs<br>
   </div>
   <div class="columns-left" style='margin-left:20px'>
-    <table style='padding-top:0px;padding-bottom:10px;text-align:center'>    
+    <table style='padding-left:20px;padding-bottom:10px;text-align:center;font-size:24px'>    
       <tr>
         <th>Setting</th>
         <th>Costs</th>
@@ -634,7 +641,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 </h2>
 <div class="columns" style='margin-top:20px'>
   <div class="columns-left">
-    Hemolysis costs across different patient care setting arise from a subset of collectors
+    Costs across different patient care setting arise from a 20% (or fewer) of collectors
   </div>
   <div class="columns-right">
     <center>
@@ -643,11 +650,38 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
 </div>
 
+
 ---
 
-<div style='border:solid;text-align:center;border-radius:10px;padding:10px'>
-  How to identify the subset of collectors that are responsible for the majority of costs?
+<h1>
+  Part 1: Summary
+</h1>
+<div>
+  <ol>
+    <li>
+      Annual insitution level hemlolysis redraw costs approach $4,000,000 per annum
+    </li>
+    <li>
+      The majority of costs arise from the Emergency and Inpatient settings
+    </li>
+    <li>
+      20% of collectors account for 80% of costs across care settings
+  </ol>
 </div>
+
+---
+
+<h1>
+  Part 1: Significance
+</h1>
+
+<img src='./assets/targeted_training.png'>
+
+A targeted training and feedback campaign might offer greater efficiency and scalability
+
+<h3 style='border:solid;text-align:center;padding:10px;border-radius:10px;margin-top:20px'>
+  Problem: how to identify high value collectors for targeted training?
+</h3>
 
 ---
 
@@ -656,13 +690,66 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </h3>
   <div style='border:solid;margin-left:0px;margin-right:40px;border-radius:20px;text-align:center;padding-top:10px;margin-left:10px'>
     <p style='padding-left:20px;'>
-      Automating the dectection of underperforming specimen collectors
+      Automated and objective dectection of underperforming specimen collectors
     </p>
   </div>  
-  
+
 ---
 
-# Identifying high value targets for collector retraining
+<h3>
+  Analyzing Annual Costs per Collector
+</h3>
+<div>
+  High costs collectors are not necessarily those with the highest hemolysis index or greatest # specimen collected
+  <!-- # specimen per collector range <br>&emsp;from 1 to >4000<br>
+  Median hemolysis index values range from xx to yy<br> -->
+</div>
+
+![bg right:55% width:500](./assets/baseplot.png)
+
+---
+
+<h3>
+  Modeling Random Variation Among Equally Skilled Collectors
+</h3>
+<div>
+  <p>
+    &bull; Random variation modeled <br>&emsp;using monte carlo process<br>
+  </p>
+  <p>
+    &bull; Random model describes <br>&emsp;central tendency in data<br>
+  </p>
+  <p>
+    &bull; High cost collectors outside <br>&emsp;bounds of random model
+  </p>
+</p>
+
+![bg right:55% width:500](./assets/baseplot_mc.png)
+
+
+---
+
+<h3>
+  High Cost Collector Performance that is Unexpected by Random Model
+</h3>
+<div class='columns' style='margin-top:30px'>
+  <div class='columns-left'>
+    &bull; Monte-carlo model used to assign p-value<br>
+    &bull; False discovery rate correction<br>
+    &bull; Expectation values computed as -log(p)
+    <br>
+    <div style='border:solid;text-align:center;margin:10px;margin-top:50px;border-radius:20px;padding:20px'>
+       Statistical model explains 71% of the variation in per collector costs
+    </div>
+  </div>
+  <div class='columns-right'>
+    <center>
+      <img src='./assets/baseplot_regplot.png' width=400>
+    </center>
+  </div>
+</div>
+
+
 
 ---
 
