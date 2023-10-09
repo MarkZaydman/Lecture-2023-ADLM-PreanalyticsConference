@@ -23,7 +23,7 @@ style: |
 ---
 
 
-# Reducing Speimen Hemolysis and Blood Culture Contamination in the Emergency Department Through Automated Collector
+# Reducing Specimen Hemolysis and Blood Culture Contamination in the Emergency Department Through Automated Collector
 
 <br>
 
@@ -79,7 +79,7 @@ Washington University School of Medicine
   Hemolysis and Blood Culture Contamination
 </h1>
 
-> Common errors occuring during specimen collection
+> Common and costly errors occuring during specimen collection
 
 <div style='margin-top:40px'>
   <img src='./assets/Preanalytical_Errors.png' style='margin-left:30px'>
@@ -650,6 +650,82 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
 </div>
 
+---
+
+
+<h2>
+  Pareto Principle and Power Laws
+</h2>
+<div class='columns'>
+  <div class='columns-left'>
+    <p>
+      The Pareto Principle is often observed for processes that exhibit a power law<br>
+    </p>
+    <p>
+      For a power law distributed data, mean and variance are undefined<br>
+    </p>
+    <p>
+      <ins>
+        Significance<br>
+      </ins>
+      &emsp;&bull; There is no expected per collector cost<br>
+      &emsp;&bull; It is difficult to define a typical collector<br>
+      &emsp;&bull; It is difficult to define an outlier collector<br>
+    </p>
+  </div>
+  <div class='columns-right' style='margin-left:20px'>
+      <img src='./assets/power_distribution.png' width=550 align='right'>
+  </div>  
+
+</div>
+
+---
+
+
+<div class='columns'>
+  <div class='columns-left'>
+    <h1>
+      Power Laws Everywhere
+    </h1>
+    <p>
+      Power Law distributions arise in diverse phenomena in physics, biology, sociology, computer science, and economics
+    </p>
+    <p>
+      Various generative mechanisms can give rise to power law phenomena
+    </p>
+    <p>
+      It is unclear which mechanism explains why per collector hemolysis exhibit such scaling
+    </p>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/power_laws_everywhere.png' height=550 style='margin-left:90px'>
+  </div>
+</div>
+<p style='font-size:18px;text-align:right'>
+  Newman, Mej. “Power Laws, Pareto Distributions and Zipf’s Law.” Contemporary Physics 46, no. 5 (September 2005): 323–51. https://doi.org/10.1080/00107510500052444.
+</p>
+
+---
+
+<h2>
+  Wisdom from ChatGPT-4
+</h2>
+
+<div>
+  <ins>
+    Prompt
+  </ins><br>
+  &emsp;Why do 20% of workers cause 80% of errors?
+</div>
+<div style='margin-top:40px'>
+  <ins>
+    Response
+  </ins><br>
+  <i>
+    ... It's important to note that the 80/20 ratio is not a strict rule but a general observation. Identifying the underlying causes of errors and addressing them through training, process improvements, and accountability measures is essential for reducing errors within any organization.
+  </i>
+</div>
+
 
 ---
 
@@ -665,7 +741,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
       The majority of costs arise from the Emergency and Inpatient settings
     </li>
     <li>
-      20% of collectors account for 80% of costs across care settings
+      20% of collectors account for 80% of hemolysis costs across care settings
   </ol>
 </div>
 
@@ -680,7 +756,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 A targeted training and feedback campaign might offer greater efficiency and scalability
 
 <h3 style='border:solid;text-align:center;padding:10px;border-radius:10px;margin-top:20px'>
-  Problem: how to identify high value collectors for targeted training?
+  Problem: how to prospectively identify high value collectors for training?
 </h3>
 
 ---
@@ -696,13 +772,103 @@ A targeted training and feedback campaign might offer greater efficiency and sca
 
 ---
 
+<h1>
+  Question
+</h1>
+<div style='border:solid;border-radius:20px;padding:20px'>
+  Can we identify non-random variation in collector performance that is predictive of future hemolysis costs?<br>
+</div>
+
+---
+
+<h1>
+  Analyzing Per Collector Hemolysis and Volumes
+</h1>
+<div class='columns'>
+  <div class='columns-left' style='margin-top:20px'>
+    <p>
+      &bull; Median HI chosen as performance metric<br>
+      &emsp; - Ranged from 0.0 to 534<br>
+      &emsp; - Wide variation for low volume collectors<br>
+    </p>
+    <p>
+      &bull; Specimen volumes<br>
+      &emsp; - Ranged from 1 to 4620<br>
+    </p>
+    <div style='margin-top:40px;border:solid;border-radius:20px;padding:20px;text-align:left'>
+      <strong>Question:</strong> Which of these collectors should be retrained?
+    </div>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/joint_plot.png' width=700 style='margin-left:30px'>
+  </div>  
+<div>
+
+
+
+<!-- ---
+
+<h1>
+  Analyzing annual per collector data
+</h1>
+<div>
+  &bull; High costs collectors tend to <br>&emsp;have higher hemolysis index<br>
+  &bull; High costs collectors tend to <br>&emsp;collect more specimen<br>
+</div>
+<div style='margin-top:20px'>
+  <ins>However:</ins><br>
+  Selecting based on hemolysis index or number of specimen misses the high costs collectors
+</div>
+
+![bg right:55% width:650](./assets/gridplot_costs.png) -->
+
+---
+
+<h3>
+  Analyzing Variation in Median Hemolysis Index per Collector
+</h3>
+<div class='columns' style='margin-top:10px'>
+  <div class='columns-left'>
+    &bull; Median HI per collector varies widely<br>
+    &bull; Variation lessens as # specimen increases<br>
+    &bull; High costs collectors tend to have higher <br>&emsp;median HI and # specimens<br>
+    &bull; Collectors with the highest median HI or # <br>&emsp;specimen captures low cost collectors<br>
+    <div style='margin-top:40px;'>
+      <ins>Hypothesis:</ins>
+    </div>
+    <div style='border:solid;padding:10px;margin:10px;border-radius:20px;text-align:center'>
+      Much of the variation in collector performance reflects random variation among equally skilled collectors
+    </div>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/first_panel.png' width=500>
+  </div>
+</div>
+
+
+
+---
+
+<h3 style='margin-bottom:30px'>
+  Separating Random and Non-random Variation in Collector Performance
+</h3>
+<img src='./assets/triple_graph.png'>
+
+---
+
 <h3>
   Analyzing Annual Costs per Collector
 </h3>
 <div>
-  High costs collectors are not necessarily those with the highest hemolysis index or greatest # specimen collected
-  <!-- # specimen per collector range <br>&emsp;from 1 to >4000<br>
-  Median hemolysis index values range from xx to yy<br> -->
+  Variation in collector costs poorly explained by: 
+  <ol style='margin-top:10px'>
+    <li>
+      degree of hemolysis 
+    </li>
+    <li>
+       # of specimen collected 
+    </li>
+  <or>
 </div>
 
 ![bg right:55% width:500](./assets/baseplot.png)
