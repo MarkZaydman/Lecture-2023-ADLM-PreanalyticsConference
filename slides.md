@@ -662,13 +662,12 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
       The Pareto Principle is often observed for processes that exhibit a power law<br>
     </p>
     <p>
-      For a power law distributed data, mean and variance are undefined<br>
+      For a power law distributed data, mean and variance can be undefined<br>
     </p>
     <p>
       <ins>
         Significance<br>
       </ins>
-      &emsp;&bull; There is no expected per collector cost<br>
       &emsp;&bull; It is difficult to define a typical collector<br>
       &emsp;&bull; It is difficult to define an outlier collector<br>
     </p>
@@ -698,12 +697,13 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
     </p>
   </div>
   <div class='columns-right'>
-    <img src='./assets/power_laws_everywhere.png' height=550 style='margin-left:90px'>
+    <img src='./assets/power_laws_everywhere.png' width=550 style='margin-left:0px'>
+    <p style='font-size:18px;text-align:right;margin-top:10px'>
+      Newman, Mej. “Power Laws, Pareto Distributions and Zipf’s Law.” Contemporary Physics 46, no. 5 (September 2005): 323–51. https://doi.org/10.1080/00107510500052444.
+    </p>
   </div>
 </div>
-<p style='font-size:18px;text-align:right'>
-  Newman, Mej. “Power Laws, Pareto Distributions and Zipf’s Law.” Contemporary Physics 46, no. 5 (September 2005): 323–51. https://doi.org/10.1080/00107510500052444.
-</p>
+
 
 ---
 
@@ -785,18 +785,20 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   Analyzing Per Collector Hemolysis and Volumes
 </h1>
 <div class='columns'>
-  <div class='columns-left' style='margin-top:20px'>
+  <div class='columns-left' style='margin-top:10px'>
     <p>
       &bull; Median HI chosen as performance metric<br>
       &emsp; - Ranged from 0.0 to 534<br>
+      &emsp; - Heavy tailed distribution<br>
       &emsp; - Wide variation for low volume collectors<br>
     </p>
     <p>
       &bull; Specimen volumes<br>
       &emsp; - Ranged from 1 to 4620<br>
+      &emsp; - Heavy tailed distribution
     </p>
     <div style='margin-top:40px;border:solid;border-radius:20px;padding:20px;text-align:left'>
-      <strong>Question:</strong> Which of these collectors should be retrained?
+      <strong>Questions:</strong> <br>Is this all random performance variation?<br>Which collectors (if any) need training?
     </div>
   </div>
   <div class='columns-right'>
@@ -804,7 +806,7 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   </div>  
 <div>
 
-
+---
 
 <!-- ---
 
@@ -822,7 +824,7 @@ A targeted training and feedback campaign might offer greater efficiency and sca
 
 ![bg right:55% width:650](./assets/gridplot_costs.png) -->
 
----
+<!-- ---
 
 <h3>
   Analyzing Variation in Median Hemolysis Index per Collector
@@ -843,17 +845,128 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   <div class='columns-right'>
     <img src='./assets/first_panel.png' width=500>
   </div>
-</div>
+</div> -->
 
+---
+
+<h2>
+  Modeling Random Variation in Collector Performance
+</h2>
+<img src='./assets/monte_carlo.png' width=900 style='margin-top:20px'>
+
+
+---
+
+
+<h2>
+  Extrapolating Extreme p-values from Limited Simulations
+</h2>
+<div class='columns'>
+  <div class='columns-left'>
+    <div style='margin-left:20px'>
+      &bull; Distribution of median hemolysis index is <br>&emsp;appproximately log-normal<br>
+      <div style='border:solid;border-radius:20px;padding:10px;margin-top:80px'>
+        <ol>
+          <li>
+            Run modest number of trials (500)<br>
+          </li>
+          <li>
+            Fit log-normal model
+          </li>
+          <li>
+            Extrapolate p-value from fitted distribution
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class='columns-right'>
+    <center>
+      <img src='./assets/lognormal_mc.png' width=350>
+    </center>  
+  </div>
+</div>  
 
 
 ---
 
 <h3 style='margin-bottom:30px'>
-  Separating Random and Non-random Variation in Collector Performance
+  Modeling Random and Nonrandom Variation in Collector Performance
 </h3>
-<img src='./assets/triple_graph.png'>
+<img src='./assets/raw_triple_graph.png' style='margin-top:10px'>
 
+---
+
+<h2>
+  Statistical Outliers Tend to Incur Higher Costs
+</h2>
+<center>
+  <img src='./assets/double_graph.png' width=1000 style='margin-top:20px'>
+</center>
+
+
+---
+
+<img src='./assets/regplot.png' width=500>
+
+---
+<!-- ---
+
+<h3>
+  Statical Model Better Predicts with Costs than the Input Variables Alone
+</h3>
+<center>
+  <img src='./assets/triple_regplot.png' width=1000 style='margin-top:30px'>
+</center> -->
+
+
+---
+
+<h2>
+  Top 20% by Statistical Ranking Predicts Top 20% by Costs
+</h2>
+<div class='columns'>
+  <div class='columns-left'>
+    <img src='./assets/pred_true_rank.png' width=550 style='margin-left:20px'>
+  </div>
+  <div class='columns-right' style='margin-left:110px;margin-top:34px'>
+    <table border="1" class="dataframe">
+    <tbody>
+      <tr>
+        <th>Se</th>
+        <td>0.69</td>
+      </tr>
+      <tr>
+        <th>Sp</th>
+        <td>0.92</td>
+      </tr>
+      <tr>
+        <th>PPV</th>
+        <td>0.69</td>
+      </tr>
+      <tr>
+        <th>Accuracy</th>
+        <td>0.88</td>
+      </tr>
+      <tr>
+        <th>F1-Score</th>
+        <td>0.69</td>
+      </tr>
+      <tr>
+        <th>MCC</th>
+        <td>0.61</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+---
+
+Forcasting future errors
+
+
+<!-- 
 ---
 
 <h3>
@@ -871,8 +984,8 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   <or>
 </div>
 
-![bg right:55% width:500](./assets/baseplot.png)
-
+![bg right:55% width:500](./assets/baseplot.png) -->
+<!-- 
 ---
 
 <h3>
@@ -890,9 +1003,9 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   </p>
 </p>
 
-![bg right:55% width:500](./assets/baseplot_mc.png)
+![bg right:55% width:500](./assets/baseplot_mc.png) -->
 
-
+<!-- 
 ---
 
 <h3>
@@ -913,7 +1026,7 @@ A targeted training and feedback campaign might offer greater efficiency and sca
       <img src='./assets/baseplot_regplot.png' width=400>
     </center>
   </div>
-</div>
+</div> -->
 
 
 
