@@ -23,7 +23,7 @@ style: |
 ---
 
 
-# Reducing Specimen Hemolysis and Blood Culture Contamination in the Emergency Department Through Automated Collector
+# Preventing Specimen Hemolysis and Blood Culture Contamination with Automated Collector Evaluations
 
 <br>
 
@@ -500,8 +500,8 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
     Automated detection and quantitation<br>
     Based on spectrophotemetric measurement<br><br>
     <ins>BJH</ins><br>
-    Measured on Roche Cobas c702<br>
-    Plasma samples<br>
+    &bull; Measured on Roche Cobas c702<br>
+    &bull; Plasma samples<br>
   </div>
   <div class="columns-right">
     <center>
@@ -594,6 +594,28 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
+<h1>
+  Limitations to Cost Model
+</h1>
+<div class='columns'>
+<div class='columns-left'>
+  <ol>
+    <li>
+      Assumed redraw based on result 
+    </li>
+    <li>
+      Did not account for indirect costs<br>
+      - Patient harms due to missed or <br>&emsp;delayed diagnosis<br>
+      - Physician and collector time
+    </li>
+  </ol>
+</div>
+<div class='columns-right'>
+  <img src='./assets/iceberg.png' height=500>
+</div>
+</div>
+
+---
 
 <!-- <div class="columns"> -->
   <!-- <div class="columns-left"> -->
@@ -629,29 +651,31 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   </div>
   <div class="columns-right">
     <center>
-      <img src='./assets/pareto_all.png' width=400>
+      <img src='./assets/pareto_combined.png' width=500>
     </center>
   </div>
 </div>
 
 ---
 
-<h2>
-  Pareto Principle Appears Across Patient Encounter Types
-</h2>
-<div class="columns" style='margin-top:20px'>
-  <div class="columns-left">
-    Costs across different patient care setting arise from a 20% (or fewer) of collectors
-  </div>
-  <div class="columns-right">
-    <center>
-      <img src='./assets/pareto_byType.png' width=500>
-    </center>
-  </div>
-</div>
+<h1>
+  Significance of Pareto Principle
+</h1>
+
+<img src='./assets/targeted_training.png'>
+<p style='margin-top:10px'>
+  A targeted training and feedback campaign might offer greater efficiency and scalability
+</p>
+<p style='margin-top:20px'>
+  <ins>
+    Key Question:
+  </ins>
+</p>
+<h3 style='border:solid;text-align:center;padding:10px;border-radius:10px;margin-top:0px'>
+  Can we prospectively identify the outliers that are most important to train? 
+</h3>
 
 ---
-
 
 <h2>
   Pareto Principle and Power Laws
@@ -664,13 +688,21 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
     <p>
       For a power law distributed data, mean and variance can be undefined<br>
     </p>
-    <p>
+    <p style='margin-top:30px'>
       <ins>
         Significance<br>
       </ins>
-      &emsp;&bull; It is difficult to define a typical collector<br>
-      &emsp;&bull; It is difficult to define an outlier collector<br>
     </p>
+    <div style='border:solid;border-radius:10px;padding:10px;'>  
+      <ul>
+        <li>
+          'Typical' cost is poorly defined<br>
+        </li>
+        <li>
+          Difficult to define outliers
+        </li>
+      </ul>
+    </div>
   </div>
   <div class='columns-right' style='margin-left:20px'>
       <img src='./assets/power_distribution.png' width=550 align='right'>
@@ -680,21 +712,26 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-
+<h1>
+  Power Laws Everywhere
+</h1>
 <div class='columns'>
   <div class='columns-left'>
-    <h1>
-      Power Laws Everywhere
-    </h1>
     <p>
-      Power Law distributions arise in diverse phenomena in physics, biology, sociology, computer science, and economics
+      Power law distributions arise in diverse artificial and natural systems
     </p>
     <p>
       Various generative mechanisms can give rise to power law phenomena
     </p>
+    <ul><li>
+      Some mechanisms are  random 
+    </li></ul>
     <p>
-      It is unclear which mechanism explains why per collector hemolysis exhibit such scaling
+      <ins>Key question</ins>
     </p>
+    <div style='border:solid;border-radius:20px;padding:20px'>          
+      Will the top 20% collectors continue to incur high costs in the future?
+    </div>
   </div>
   <div class='columns-right'>
     <img src='./assets/power_laws_everywhere.png' width=550 style='margin-left:0px'>
@@ -707,11 +744,11 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-<h2>
+<h1>
   Wisdom from ChatGPT-4
-</h2>
+</h1>
 
-<div>
+<div style='margin-top:20px'>
   <ins>
     Prompt
   </ins><br>
@@ -735,7 +772,7 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 <div>
   <ol>
     <li>
-      Annual insitution level hemlolysis redraw costs approach $4,000,000 per annum
+      Annual insitution level hemlolysis redraw costs estimates approached $4,000,000 
     </li>
     <li>
       The majority of costs arise from the Emergency and Inpatient settings
@@ -747,19 +784,6 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-<h1>
-  Part 1: Significance
-</h1>
-
-<img src='./assets/targeted_training.png'>
-
-A targeted training and feedback campaign might offer greater efficiency and scalability
-
-<h3 style='border:solid;text-align:center;padding:10px;border-radius:10px;margin-top:20px'>
-  Problem: how to prospectively identify high value collectors for training?
-</h3>
-
----
 
   <h3>
     Part 2
@@ -773,10 +797,17 @@ A targeted training and feedback campaign might offer greater efficiency and sca
 ---
 
 <h1>
-  Question
+  <ins>
+    Questions
+  </ins>
 </h1>
 <div style='border:solid;border-radius:20px;padding:20px'>
-  Can we identify non-random variation in collector performance that is predictive of future hemolysis costs?<br>
+  <ol>
+    <li>
+      Can we identify non-random variation in collector performance?
+    </li>
+    <li>
+      If so, does it help us to predict future hemolysis costs?<br>
 </div>
 
 ---
@@ -808,52 +839,13 @@ A targeted training and feedback campaign might offer greater efficiency and sca
 
 ---
 
-<!-- ---
-
-<h1>
-  Analyzing annual per collector data
-</h1>
-<div>
-  &bull; High costs collectors tend to <br>&emsp;have higher hemolysis index<br>
-  &bull; High costs collectors tend to <br>&emsp;collect more specimen<br>
-</div>
-<div style='margin-top:20px'>
-  <ins>However:</ins><br>
-  Selecting based on hemolysis index or number of specimen misses the high costs collectors
-</div>
-
-![bg right:55% width:650](./assets/gridplot_costs.png) -->
-
-<!-- ---
 
 <h3>
-  Analyzing Variation in Median Hemolysis Index per Collector
+  Modeling Random Performance Variation among Equally Skilled Collectors
 </h3>
-<div class='columns' style='margin-top:10px'>
-  <div class='columns-left'>
-    &bull; Median HI per collector varies widely<br>
-    &bull; Variation lessens as # specimen increases<br>
-    &bull; High costs collectors tend to have higher <br>&emsp;median HI and # specimens<br>
-    &bull; Collectors with the highest median HI or # <br>&emsp;specimen captures low cost collectors<br>
-    <div style='margin-top:40px;'>
-      <ins>Hypothesis:</ins>
-    </div>
-    <div style='border:solid;padding:10px;margin:10px;border-radius:20px;text-align:center'>
-      Much of the variation in collector performance reflects random variation among equally skilled collectors
-    </div>
-  </div>
-  <div class='columns-right'>
-    <img src='./assets/first_panel.png' width=500>
-  </div>
-</div> -->
-
----
-
-<h2>
-  Modeling Random Variation in Collector Performance
-</h2>
-<img src='./assets/monte_carlo.png' width=900 style='margin-top:20px'>
-
+<center>
+  <img src='./assets/monte_carlo.png' width=900 style='margin-top:20px'>
+</center>
 
 ---
 
@@ -882,7 +874,7 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   </div>
   <div class='columns-right'>
     <center>
-      <img src='./assets/lognormal_mc.png' width=350>
+      <img src='./assets/lognormal_mc.png' width=325>
     </center>  
   </div>
 </div>  
@@ -903,21 +895,6 @@ A targeted training and feedback campaign might offer greater efficiency and sca
 <center>
   <img src='./assets/double_graph.png' width=1000 style='margin-top:20px'>
 </center>
-
-
----
-
-<img src='./assets/regplot.png' width=500>
-
----
-<!-- ---
-
-<h3>
-  Statical Model Better Predicts with Costs than the Input Variables Alone
-</h3>
-<center>
-  <img src='./assets/triple_regplot.png' width=1000 style='margin-top:30px'>
-</center> -->
 
 
 ---
@@ -960,6 +937,32 @@ A targeted training and feedback campaign might offer greater efficiency and sca
   </table>
   </div>
 </div>
+
+---
+
+
+<h1>
+  Outlier Score is Predictive of Observed Costs
+</h1>
+<div class='columns'>
+  <div class='columns-left' style='margin:10px'>
+    The degree to which observed collector performance is 'unexpected' by a model of random variation among equally skilled collectors is highly predictive of costs
+    <div style='margin-top:50px'>
+      <ins> 
+        Key question
+      </ins>
+    </div>
+    <div style='border:solid;padding:20px;border-radius:20px;margin-top:5px'>
+      Does the outlier score help to predict future hemolysis errors and costs?
+    </div>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/regplot.png' width=500>
+  </div>
+</div>
+
+
+
 
 ---
 
@@ -1062,3 +1065,43 @@ Forcasting future errors
   </div>
 </div>
 
+<!-- ---
+
+<h1>
+  Analyzing annual per collector data
+</h1>
+<div>
+  &bull; High costs collectors tend to <br>&emsp;have higher hemolysis index<br>
+  &bull; High costs collectors tend to <br>&emsp;collect more specimen<br>
+</div>
+<div style='margin-top:20px'>
+  <ins>However:</ins><br>
+  Selecting based on hemolysis index or number of specimen misses the high costs collectors
+</div>
+
+![bg right:55% width:650](./assets/gridplot_costs.png) -->
+
+<!-- ---
+
+<h3>
+  Analyzing Variation in Median Hemolysis Index per Collector
+</h3>
+<div class='columns' style='margin-top:10px'>
+  <div class='columns-left'>
+    &bull; Median HI per collector varies widely<br>
+    &bull; Variation lessens as # specimen increases<br>
+    &bull; High costs collectors tend to have higher <br>&emsp;median HI and # specimens<br>
+    &bull; Collectors with the highest median HI or # <br>&emsp;specimen captures low cost collectors<br>
+    <div style='margin-top:40px;'>
+      <ins>Hypothesis:</ins>
+    </div>
+    <div style='border:solid;padding:10px;margin:10px;border-radius:20px;text-align:center'>
+      Much of the variation in collector performance reflects random variation among equally skilled collectors
+    </div>
+  </div>
+  <div class='columns-right'>
+    <img src='./assets/first_panel.png' width=500>
+  </div>
+</div> -->
+
+---
