@@ -948,13 +948,6 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
   <div class='columns-left' style='margin:10px'>
     The degree to which observed collector performance is 'unexpected' by a model of random variation among equally skilled collectors is highly predictive of costs
     <div style='margin-top:50px'>
-      <ins> 
-        Key question
-      </ins>
-    </div>
-    <div style='border:solid;padding:20px;border-radius:20px;margin-top:5px'>
-      Does the outlier score help to predict future hemolysis errors and costs?
-    </div>
   </div>
   <div class='columns-right'>
     <img src='./assets/regplot.png' width=500>
@@ -966,8 +959,87 @@ Lippi, Giuseppe, Gianfranco Cervellin, and Camilla Mattiuzzi. “Critical Review
 
 ---
 
-Forcasting future errors
+<div>
+  <ins> 
+    Key question
+  </ins>
+</div>
+<div style='border:solid;padding:20px;border-radius:20px;margin-top:5px'>
+  Does the outlier score help to predict future hemolysis errors and costs?
+</div>
 
+<img src='./assets/forecasting.png' style='margin-top:50px'>
+
+<!-- <div class='columns'>
+  <div class='columns'>
+  </div>
+  <div class='columns'>
+
+  </div>
+</div> -->
+
+---
+
+
+<h2>
+  Forecasting 2022 Costs Using December 2021 Data
+
+<div>
+  <div class='columns'>
+  <div class='columns-left'>
+    <img src='./assets/forecasting_double_left.png' width=500 >
+  </div>
+  <div class='columns-right'>
+  <img src='./assets/forecasting_double_right.png' width=520 >
+
+</div>
+</div>
+
+
+---
+
+<h2>
+  December 2021 Statistical Scores Predict 2022 20% Collectors
+</h2>
+<div class='columns'>
+  <div class='columns-left'>
+    <img src='./assets/pred_true_rank_forecasting.png' width=550 style='margin-left:20px'>
+  </div>
+  <div class='columns-right' style='margin-left:110px;margin-top:34px'>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Se</th>
+      <td>0.48</td>
+    </tr>
+    <tr>
+      <th>Sp</th>
+      <td>0.87</td>
+    </tr>
+    <tr>
+      <th>PPV</th>
+      <td>0.48</td>
+    </tr>
+    <tr>
+      <th>Accuracy</th>
+      <td>0.79</td>
+    </tr>
+    <tr>
+      <th>F1-Score</th>
+      <td>0.48</td>
+    </tr>
+    <tr>
+      <th>MCC</th>
+      <td>0.35</td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- 
 ---
